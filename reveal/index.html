@@ -39,17 +39,18 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## CMSimfly 網際內容管理
+## 40723228電腦輔助設計實習
 
-### KMOLab
-
-<small>
-Created by [KMOLab](http://lab.kmol.info/)
-</small>
-
-[CMSimfly 網誌](./../blog/index.html)
+### 郭倞
 
 
+ [個人網站](https://s40723228.github.io/cad2019/content/index.html)
+
+
+[個人網誌](https://s40723228.github.io/cad2019/blog/index.html)
+
+
+[個人倉儲](https://github.com/s40723228/cad2019)
     </script>
 </section>
 
@@ -57,85 +58,49 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+## week1~14
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
+一開始先建立倉儲和網站之後下載solvespace並編譯，然後下載v-rep和webots。然後設定ssh對github連線
     </script>
 </section>
-
-
-						
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-    </script>
-</section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+## week15
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+翻譯NX電子書
+solvespace轉檔webots
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rx9pTnexSfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </script>
 </section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+## week16
 
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+solvespace轉檔v-rep
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gw9FQdn0i9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </script>
 </section>
 
 
 						
+<section data-markdown>
+    <script type="text/template">
+## week17
+
+翻譯vrep電子書
+模擬老師越野車
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RCzubxmdPiA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </script>
 </section>
 
+
+						
 </div>
 
 </div>
